@@ -16,7 +16,7 @@
         "Employee Relations"
       ],
       "startDate": "2018-04-01",
-      "leadership": true,
+      "leadership": false,
       "workingStatus": true
     },
     {
@@ -35,7 +35,7 @@
         "Node.js"
       ],
       "startDate": "2020-09-15",
-      "leadership": false,
+      "leadership": true,
       "workingStatus": true
     },
     {
@@ -46,7 +46,6 @@
       "phone": "050-9988776",
       "email": "laura.laakso@example.com",
       "animal": "Fox",
-      "startDate": "2019-02-10",
       "location": "Tampere",
       "department": "Marketing",
       "skills": [
@@ -54,6 +53,7 @@
         "Content Creation",
         "Social Media"
       ],
+      "startDate": "2019-02-10",
       "leadership": false,
       "workingStatus": true
     },
@@ -265,6 +265,23 @@
       "salary": null,
       "phone": "",
       "email": "",
+      "animal": "",
+      "startDate": "",
+      "location": "",
+      "department": "",
+      "skills": [
+        ""
+      ],
+      "leadership": true,
+      "workingStatus": true
+    },
+    {
+      "id": "1855",
+      "name": "Muhammad Jamil",
+      "title": "",
+      "salary": null,
+      "phone": "0417236214",
+      "email": "jamilnimbook2@gmail.com",
       "animal": "",
       "startDate": "",
       "location": "",
