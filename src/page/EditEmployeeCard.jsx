@@ -1,11 +1,19 @@
 import React, { useState } from "react";
-import { useLocation, useNavigate } from "react-router";
+import { useLocation, useNavigate, useParams } from "react-router";
+import styles from "./EditEmployeeCard.module.css";
 
 function EditEmployeeCard(props) {
-  const { updateEmployee } = props;
+  const { updateEmployee, employeeData } = props;
+  const { id } = useParams();
 
   const location = useLocation();
-  const employee = location.state?.employee;
+  const employee =
+    location.state?.employee ||
+    employeeData.find((emp) => emp.id === Number(id));
+
+  if (!employee) {
+    return <p>Employee not found!</p>;
+  }
 
   const navigate = useNavigate();
 
@@ -27,7 +35,7 @@ function EditEmployeeCard(props) {
   };
 
   return (
-    <div className="employeeCard">
+    <div className={styles.employeeCard}>
       <p>Id: {formData.id}</p>
 
       {isEditing ? (
@@ -57,7 +65,7 @@ function EditEmployeeCard(props) {
             />
 
             <input
-              type="number"
+              type="tel"
               placeholder="Phone"
               value={formData.phone}
               onChange={handleChange}
@@ -72,7 +80,12 @@ function EditEmployeeCard(props) {
               name="email"
             />
 
-            <select name="animal" id="animal" onChange={handleChange}>
+            <select
+              name="animal"
+              id="animal"
+              value={formData.animal}
+              onChange={handleChange}
+            >
               <option value="dog">Dog</option>
               <option value="cat">Cat</option>
               <option value="bird">Bird</option>
@@ -102,7 +115,7 @@ function EditEmployeeCard(props) {
               name="department"
             />
 
-            <input
+            <textarea
               type="textarea"
               placeholder="skills"
               value={formData.skills}
@@ -114,7 +127,9 @@ function EditEmployeeCard(props) {
           </form>
         </>
       ) : (
-        <><P>Cancel</P></>
+        <>
+          <p>Cancel</p>
+        </>
       )}
     </div>
   );

@@ -1,0 +1,45 @@
+footer {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  width: 100vw;
+  height: 1rem;
+  box-shadow: 0 4px 8px rgba(54, 52, 52, 0.1);
+}
+
+nav {
+  width: 1rem;
+  margin-right: 3rem;
+  display: flex;
+  flex-direction: column; /* Now menu items will be in a row (horizontally) */
+  flex-wrap: wrap;
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points */
+  display: flex;    /* Flexbox on ul to align li items horizontally */
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 0 1rem;
+}
+
+a {
+  margin: 0.5rem;
+  text-decoration: none;
+  color: rgb(12, 11, 11);
+}
+
+a:hover {
+  border-bottom: 1px dashed white;
+}
+
+.active {
+  color: rgb(255, 197, 90);
+  border-bottom: 1px dashed maroon;
+  font-weight: 600;
+}

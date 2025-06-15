@@ -1,0 +1,57 @@
+/* EditEmployeeCard.css */
+
+.employeeCard {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 370px;
+  margin: 50px auto;
+  width: fit-content;
+}
+
+.employeeCard p {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 20px;
+  width: 23rem;
+}
+
+.employeeCard form {
+  display: flex;
+  flex-direction: column;
+}
+
+.employeeCard input,
+.employeeCard select,
+.employeeCard textarea {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  width: 22rem;
+}
+
+.employeeCard textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.employeeCard button {
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #434242;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 23rem;
+}
+
+.employeeCard button:hover {
+  background-color: #827f7f;
+}

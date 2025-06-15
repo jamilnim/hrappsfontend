@@ -1,108 +1,28 @@
 {
   "employees": [
     {
-      "id": "1",
-      "name": "Aino Virtanen",
-      "title": "HR Manager",
-      "salary": 4200,
-      "phone": "040-1234567",
-      "email": "aino.virtanen@example.com",
-      "animal": "Owl",
-      "location": "Helsinki",
-      "department": "Human Resources",
-      "skills": [
-        "Recruiting",
-        "Communication",
-        "Employee Relations"
-      ],
-      "startDate": "2018-04-01",
-      "leadership": false,
-      "workingStatus": true
+      "id": "1"
     },
     {
-      "id": "2",
-      "name": "8",
-      "title": "jamil",
-      "salary": 4800,
-      "phone": "045-7654321",
-      "email": "jari.niemi@example.com",
-      "animal": "cat",
-      "location": "Espoo",
-      "department": "IT",
-      "skills": [
-        "JavaScript",
-        "React",
-        "Node.js"
-      ],
-      "startDate": "2020-09-15",
-      "leadership": true,
-      "workingStatus": true
+      "id": "2"
     },
     {
-      "id": "3",
-      "name": "anha",
-      "title": "Marketing Specialist",
-      "salary": 3900,
-      "phone": "050-9988776",
-      "email": "laura.laakso@example.com",
-      "animal": "Fox",
-      "location": "Tampere",
-      "department": "Marketing",
-      "skills": [
-        "SEO",
-        "Content Creation",
-        "Social Media"
-      ],
-      "startDate": "2019-02-10",
-      "leadership": false,
-      "workingStatus": true
+      "id": "3"
     },
     {
-      "id": "4",
-      "name": "Mikko Koskinen",
-      "title": "Data Analyst",
-      "salary": 4600,
-      "phone": "041-4567890",
-      "email": "mikko.koskinen@example.com",
-      "animal": "Bear",
-      "startDate": "2021-01-20",
-      "location": "Helsinki",
-      "department": "Business Intelligence",
-      "skills": [
-        "SQL",
-        "Python",
-        "Data Visualization"
-      ],
-      "leadership": true,
-      "workingStatus": false
+      "id": "4"
     },
     {
-      "id": "5",
-      "name": "Emilia Rantanen",
-      "title": "hjhhj",
-      "salary": 4400,
-      "phone": "040-3344556",
-      "email": "emilia.rantanen@example.com",
-      "animal": "bird",
-      "location": "Turku",
-      "department": "Design",
-      "skills": [
-        "Wireframing",
-        "Prototyping",
-        "User Research"
-      ],
-      "startDate": "2017-11-05",
-      "leadership": false,
-      "workingStatus": true
+      "id": "5"
     },
     {
       "id": "6",
       "name": "Antti Salmi",
       "title": "DevOps Engineer",
-      "salary": "2222",
+      "salary": 3520,
       "phone": "046-9988771",
       "email": "antti.salmi@example.com",
-      "animal": "Eagle",
+      "animal": "bird",
       "startDate": "2016-06-30",
       "location": "Espoo",
       "department": "IT",
@@ -112,16 +32,16 @@
         "Docker"
       ],
       "leadership": true,
-      "workingStatus": true
+      "workingStatus": false
     },
     {
       "id": "7",
       "name": "Kaisa Mäkinen",
       "title": "Project Manager",
-      "salary": 4700,
+      "salary": 4789,
       "phone": "044-6677889",
       "email": "kaisa.makinen@example.com",
-      "animal": "Dolphin",
+      "animal": "bird",
       "startDate": "2015-09-01",
       "location": "Vantaa",
       "department": "Project Management",
@@ -130,7 +50,7 @@
         "Agile",
         "Team Leadership"
       ],
-      "leadership": false,
+      "leadership": true,
       "workingStatus": false
     },
     {
@@ -140,7 +60,7 @@
       "salary": 3500,
       "phone": "043-5566778",
       "email": "teemu.lehtonen@example.com",
-      "animal": "Dog",
+      "animal": "bird",
       "startDate": "2022-03-12",
       "location": "Helsinki",
       "department": "Support",
@@ -150,145 +70,101 @@
         "Hardware"
       ],
       "leadership": false,
-      "workingStatus": true
-    },
-    {
-      "id": "9",
-      "name": "Sanna Korhonen",
-      "title": "Finance Analyst",
-      "salary": 4300,
-      "phone": "045-1239876",
-      "email": "sanna.korhonen@example.com",
-      "animal": "Rabbit",
-      "startDate": "2018-08-18",
-      "location": "Lahti",
-      "department": "Finance",
-      "skills": [
-        "Budgeting",
-        "Forecasting",
-        "Excel"
-      ],
-      "leadership": false,
-      "workingStatus": true
-    },
-    {
-      "id": "10",
-      "name": "Ville Tuominen",
-      "title": "jamil 2",
-      "salary": 5200,
-      "phone": "042-7788990",
-      "email": "ville.tuominen@example.com",
-      "animal": "Hawk",
-      "location": "Helsinki",
-      "department": "Legal",
-      "skills": [
-        "Contract Law",
-        "Risk Management",
-        "Compliance"
-      ],
-      "startDate": "2014-05-25",
-      "leadership": true,
       "workingStatus": false
     },
     {
-      "id": "2159",
-      "name": "",
-      "title": "",
-      "salary": null,
-      "phone": "",
-      "email": "",
-      "animal": "",
-      "startDate": "",
-      "location": "",
-      "department": "",
-      "skills": [
-        ""
-      ],
-      "leadership": false,
-      "workingStatus": true
+      "id": "9"
     },
     {
-      "id": "0989",
-      "name": "Muhammad Jamil",
-      "title": "rock",
-      "salary": null,
+      "id": "10"
+    },
+    {
+      "id": "f9ad",
+      "name": "sumon",
+      "title": "Sr product developer",
+      "salary": 7000,
       "phone": "0417236214",
       "email": "jamilnimbook2@gmail.com",
-      "animal": "",
-      "startDate": "",
-      "location": "",
-      "department": "",
-      "skills": [
-        ""
-      ],
+      "animal": "cat",
+      "startDate": "2025-03-13",
+      "location": "Espoo",
+      "department": "IT",
+      "skills": "Contract Law,Risk Management,Compliance",
       "leadership": false,
       "workingStatus": true
     },
     {
-      "id": "5f49",
-      "name": "anha",
-      "title": "studen",
-      "salary": 10,
+      "id": "61f0",
+      "name": "kishor",
+      "title": "singer",
+      "salary": 4800,
       "phone": "0417236214",
       "email": "jamilnimbook2@gmail.com",
-      "animal": "",
-      "location": "",
-      "department": "",
-      "skills": [
-        ""
-      ],
-      "startDate": "2011-04-04",
-      "leadership": false,
-      "workingStatus": true
-    },
-    {
-      "id": "3f2d",
-      "name": "Muhammad Jamil",
-      "title": "developer",
-      "salary": null,
-      "phone": "0417236214",
-      "email": "jamilnimbook2@gmail.com",
-      "animal": "",
-      "startDate": "",
-      "location": "",
-      "department": "",
-      "skills": [
-        ""
-      ],
-      "leadership": false,
-      "workingStatus": true
-    },
-    {
-      "id": "ed4a",
-      "name": "",
-      "title": "",
-      "salary": null,
-      "phone": "",
-      "email": "",
-      "animal": "",
-      "startDate": "",
-      "location": "",
-      "department": "",
-      "skills": [
-        ""
-      ],
+      "animal": "bird",
+      "startDate": "2025-04-30",
+      "location": "Espoo",
+      "department": "Project Management",
+      "skills": "SEO,Content Creation,Social Media",
       "leadership": true,
       "workingStatus": true
     },
     {
-      "id": "1855",
+      "id": "3a09",
       "name": "Muhammad Jamil",
-      "title": "",
-      "salary": null,
+      "title": "manager",
+      "salary": 4800,
+      "phone": "0417236214",
+      "email": "jamilnimbook2@gmail.com",
+      "animal": "cat",
+      "startDate": "2023-06-14",
+      "location": "Vantaa",
+      "department": "Legal",
+      "skills": "SEO,Content Creation,Social Media",
+      "leadership": false,
+      "workingStatus": false
+    },
+    {
+      "id": "82ff",
+      "name": "Muhammad Jamil",
+      "title": "rr",
+      "salary": 4800,
       "phone": "0417236214",
       "email": "jamilnimbook2@gmail.com",
       "animal": "",
+      "startDate": "2025-01-11",
+      "location": "Espoo",
+      "department": "IT",
+      "skills": "Contract Law,Risk Management,Compliance",
+      "leadership": false,
+      "workingStatus": true
+    },
+    {
+      "id": "3a41",
+      "name": "Muhammad Jamil",
+      "title": "",
+      "salary": 5200,
+      "phone": "0417236214",
+      "email": "jamilnimbook2@gmail.com",
+      "animal": "cat",
       "startDate": "",
-      "location": "",
-      "department": "",
-      "skills": [
-        ""
-      ],
+      "location": " Helsinki",
+      "department": "IT",
+      "skills": "coding",
+      "leadership": false,
+      "workingStatus": true
+    },
+    {
+      "id": "a3b7",
+      "name": "anha",
+      "title": "Rnd",
+      "salary": 5000,
+      "phone": "0417236214",
+      "email": "jamilnimbook2@gmail.com",
+      "animal": "cat",
+      "startDate": "2025-02-27",
+      "location": "Espoo",
+      "department": "IT",
+      "skills": "JavaScript,React,Node.js",
       "leadership": false,
       "workingStatus": true
     }

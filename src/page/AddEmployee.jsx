@@ -1,10 +1,12 @@
 import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./Addemployee.css";
+import styles from "./Addemployee.module.css";
 import axios from "axios";
+import useAxios from "../hooks/useAxios";
 
 function AddEmployee({ onAddEmployee }) {
+  const { post } = useAxios();
   const [formData, setFormData] = useState({
     name: "",
     title: "",
@@ -18,6 +20,9 @@ function AddEmployee({ onAddEmployee }) {
     skills: [""],
   });
   const navigate = useNavigate();
+  const goback = () => {
+    navigate("/EmployeeList");
+  };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -34,10 +39,9 @@ function AddEmployee({ onAddEmployee }) {
       workingStatus: true,
     };
 
-    axios
-      .post("http://localhost:3001/employees", newemployee)
+    post("/employees", newemployee)
       .then((res) => {
-        onAddEmployee(res.data);
+        onAddEmployee({ ...res.data, leadership: false, workingStatus: false });
         navigate("/EmployeeList");
         setFormData({
           name: "",
@@ -59,12 +63,10 @@ function AddEmployee({ onAddEmployee }) {
 
   return (
     <>
-      <div className="headContainer">
-        <h1>Add New Employee</h1>{" "}
-      </div>
-      <div className="bodyContainer">
-        <div className="inputContainer">
+      <div className={styles.bodyContainer}>
+        <div className={styles.inputContainer}>
           <form onSubmit={handleSubmit}>
+            <h2>Add New Employee</h2>
             <input
               type="text"
               placeholder="Name"
@@ -79,7 +81,6 @@ function AddEmployee({ onAddEmployee }) {
               onChange={handleChange}
               name="title"
             />
-
             <input
               type="number"
               placeholder="Salary"
@@ -87,15 +88,13 @@ function AddEmployee({ onAddEmployee }) {
               onChange={handleChange}
               name="salary"
             />
-
             <input
-              type="number"
+              type="tel"
               placeholder="Phone"
               value={formData.phone}
               onChange={handleChange}
               name="phone"
             />
-
             <input
               type="text"
               placeholder="Email"
@@ -103,13 +102,11 @@ function AddEmployee({ onAddEmployee }) {
               onChange={handleChange}
               name="email"
             />
-
             <select name="animal" id="animal" onChange={handleChange}>
               <option value="dog">Dog</option>
               <option value="cat">Cat</option>
               <option value="bird">Bird</option>
             </select>
-
             <input
               type="date"
               placeholder="anstartDateimal"
@@ -117,7 +114,6 @@ function AddEmployee({ onAddEmployee }) {
               onChange={handleChange}
               name="startDate"
             />
-
             <input
               type="text"
               placeholder="location"
@@ -125,7 +121,6 @@ function AddEmployee({ onAddEmployee }) {
               onChange={handleChange}
               name="location"
             />
-
             <input
               type="text"
               placeholder="department"
@@ -133,7 +128,6 @@ function AddEmployee({ onAddEmployee }) {
               onChange={handleChange}
               name="department"
             />
-
             <input
               type="textarea"
               placeholder="skills"
@@ -141,9 +135,11 @@ function AddEmployee({ onAddEmployee }) {
               onChange={handleChange}
               name="skills"
             />
-
             <button type="submit">Add new employee</button>
           </form>
+          <button className={styles.cancelbtn} onClick={goback}>
+            Cancel
+          </button>
         </div>
       </div>
     </>

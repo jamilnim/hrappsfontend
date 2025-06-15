@@ -10,6 +10,7 @@ function Root() {
       <main>
         <Outlet />
       </main>
+        <Header name="EM" />
     </div>
   );
 }
