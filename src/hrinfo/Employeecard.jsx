@@ -95,7 +95,7 @@ const EmployeeCard = ({
         onClick={onToggleworkstatus}
         title="Toggle Working Status"
       >
-        Work Status {workStatusIcon}
+         {workStatusIcon}
       </div>
       <p className={styles.employeeText}>
         🎉 Yearcompleted {yearsWorked} year{yearsWorked !== 1 ? "s" : ""}!
