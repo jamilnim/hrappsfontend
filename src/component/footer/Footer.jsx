@@ -19,6 +19,7 @@ function Footer({ name }) {
           </ul>
         </nav>
       </footer>
+      <p>copyright©Muhammad Jamil</p>
     </div>
   );
 }
