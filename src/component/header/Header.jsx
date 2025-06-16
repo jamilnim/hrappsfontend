@@ -8,7 +8,7 @@ function Header({ name }) {
   return (
     <div>
       <header className={styles.header}>
-        <div className="logo">
+        <div >
           <img className={styles.logo} src={Em} alt="logo" />
         </div>
         <nav>
