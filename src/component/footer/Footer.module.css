@@ -9,6 +9,12 @@
   box-shadow: 0 4px 8px rgba(54, 52, 52, 0.1);
 }
 
+.logo{
+
+  width: 4rem;
+  height: 4rem;
+}
+
 footer nav {
 display: flex;
   flex-direction: column;

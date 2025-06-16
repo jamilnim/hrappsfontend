@@ -1,24 +1,24 @@
 import { NavLink, Link } from "react-router";
 
-import Styles from "./Footer.module.css";
+import styles from "./Footer.module.css";
+import Em from "../../assets/Em.png";
 
 import React from "react";
 
 function Footer({ name }) {
   return (
     <div>
-      <footer className={Styles.footer}>
+      <footer className={styles.footer}>
         <div className="logo">
-          <Link to="/">
-            <h2>{name}</h2>
-          </Link>
+           <img className={styles.logo} src={Em} alt="logo" />
+         
         </div>
         <nav>
           <ul>
             <NavLink to="/about">About</NavLink>
             <NavLink to="/employeelist">Employee list</NavLink>
             <NavLink to="/add">Add Employee</NavLink>
-            <NavLink to="/personList">Person List</NavLink>
+      
           </ul>
         </nav>
       </footer>

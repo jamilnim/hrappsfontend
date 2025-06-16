@@ -7,11 +7,11 @@ import Footer from "../component/footer/Footer";
 function Root() {
   return (
     <div>
-      <Header name="Employee Management" />
+      <Header name="HR Management" />
       <main>
         <Outlet />
       </main>
-      <Footer name="EM" />
+      <Footer  />
     </div>
   );
 }

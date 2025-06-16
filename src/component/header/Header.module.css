@@ -6,7 +6,17 @@
   padding: 0 1rem;
 
   box-shadow: 0 4px 8px rgba(54, 52, 52, 0.1);
-  margin-bottom: 2rem;
+
+}
+
+.logoContent{
+  display: flex;
+}
+
+.logo{
+  margin-top: 1rem;
+width: 4rem;
+height: 4rem;  
 }
 
 nav ul li {

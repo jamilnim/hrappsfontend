@@ -9,7 +9,7 @@ import AddEmployee from "./page/AddEmployee";
 
 import { useEffect, useState } from "react";
 import EditEmployeeCard from "./page/EditEmployeeCard";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 const App = () => {
   const { get, patch, remove } = useAxios();
@@ -98,6 +98,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Root />}>
+          <Route index element={<About />} />
           <Route path="about" element={<About />} />
           <Route
             path="EmployeeList"
