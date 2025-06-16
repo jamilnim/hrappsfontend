@@ -1,0 +1,172 @@
+{
+  "employees": [
+    {
+      "id": "1"
+    },
+    {
+      "id": "2"
+    },
+    {
+      "id": "3"
+    },
+    {
+      "id": "4"
+    },
+    {
+      "id": "5"
+    },
+    {
+      "id": "6",
+      "name": "Antti Salmi",
+      "title": "DevOps Engineer",
+      "salary": 3520,
+      "phone": "046-9988771",
+      "email": "antti.salmi@example.com",
+      "animal": "bird",
+      "startDate": "2016-06-30",
+      "location": "Espoo",
+      "department": "IT",
+      "skills": [
+        "CI/CD",
+        "AWS",
+        "Docker"
+      ],
+      "leadership": true,
+      "workingStatus": false
+    },
+    {
+      "id": "7",
+      "name": "Kaisa Mäkinen",
+      "title": "Project Manager",
+      "salary": 4789,
+      "phone": "044-6677889",
+      "email": "kaisa.makinen@example.com",
+      "animal": "bird",
+      "startDate": "2015-09-01",
+      "location": "Vantaa",
+      "department": "Project Management",
+      "skills": [
+        "Scrum",
+        "Agile",
+        "Team Leadership"
+      ],
+      "leadership": true,
+      "workingStatus": false
+    },
+    {
+      "id": "8",
+      "name": "Teemu Lehtonen",
+      "title": "hhhh",
+      "salary": 3500,
+      "phone": "043-5566778",
+      "email": "teemu.lehtonen@example.com",
+      "animal": "bird",
+      "startDate": "2022-03-12",
+      "location": "Helsinki",
+      "department": "Support",
+      "skills": [
+        "Troubleshooting",
+        "Customer Service",
+        "Hardware"
+      ],
+      "leadership": false,
+      "workingStatus": false
+    },
+    {
+      "id": "9"
+    },
+    {
+      "id": "10"
+    },
+    {
+      "id": "f9ad",
+      "name": "sumon",
+      "title": "Sr product developer",
+      "salary": 7000,
+      "phone": "0417236214",
+      "email": "jamilnimbook2@gmail.com",
+      "animal": "cat",
+      "startDate": "2025-03-13",
+      "location": "Espoo",
+      "department": "IT",
+      "skills": "Contract Law,Risk Management,Compliance",
+      "leadership": false,
+      "workingStatus": true
+    },
+    {
+      "id": "61f0",
+      "name": "kishor",
+      "title": "singer",
+      "salary": 4800,
+      "phone": "0417236214",
+      "email": "jamilnimbook2@gmail.com",
+      "animal": "bird",
+      "startDate": "2025-04-30",
+      "location": "Espoo",
+      "department": "Project Management",
+      "skills": "SEO,Content Creation,Social Media",
+      "leadership": true,
+      "workingStatus": false
+    },
+    {
+      "id": "3a09",
+      "name": "Muhammad Jamil",
+      "title": "manager",
+      "salary": 4800,
+      "phone": "0417236214",
+      "email": "jamilnimbook2@gmail.com",
+      "animal": "cat",
+      "startDate": "2023-06-14",
+      "location": "Vantaa",
+      "department": "Legal",
+      "skills": "SEO,Content Creation,Social Media",
+      "leadership": false,
+      "workingStatus": false
+    },
+    {
+      "id": "82ff",
+      "name": "Muhammad Jamil",
+      "title": "rr",
+      "salary": 4800,
+      "phone": "0417236214",
+      "email": "jamilnimbook2@gmail.com",
+      "animal": "",
+      "startDate": "2025-01-11",
+      "location": "Espoo",
+      "department": "IT",
+      "skills": "Contract Law,Risk Management,Compliance",
+      "leadership": false,
+      "workingStatus": false
+    },
+    {
+      "id": "3a41",
+      "name": "Muhammad Jamil",
+      "title": "",
+      "salary": 5200,
+      "phone": "0417236214",
+      "email": "jamilnimbook2@gmail.com",
+      "animal": "cat",
+      "startDate": "",
+      "location": " Helsinki",
+      "department": "IT",
+      "skills": "coding",
+      "leadership": false,
+      "workingStatus": false
+    },
+    {
+      "id": "a3b7",
+      "name": "anha",
+      "title": "Rnd",
+      "salary": 5000,
+      "phone": "0417236214",
+      "email": "jamilnimbook2@gmail.com",
+      "animal": "cat",
+      "startDate": "2025-02-27",
+      "location": "Espoo",
+      "department": "IT",
+      "skills": "JavaScript,React,Node.js",
+      "leadership": false,
+      "workingStatus": true
+    }
+  ]
+}
