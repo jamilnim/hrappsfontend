@@ -11,6 +11,7 @@ function Footer({ name }) {
         <div className="logo">
           <img className={styles.logo} src={Em} alt="logo" />
         </div>
+        <p>Copyright©Muhammad Jamil</p>
         <nav>
           <ul>
             <NavLink to="/about">About</NavLink>
@@ -18,7 +19,7 @@ function Footer({ name }) {
             <NavLink to="/add">Add Employee</NavLink>
           </ul>
         </nav>
-        <p>Copyright©Muhammad Jamil</p>
+     
       </footer>
 
     </div>
