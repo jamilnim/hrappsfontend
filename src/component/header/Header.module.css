@@ -4,27 +4,25 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 1rem;
-
   box-shadow: 0 4px 8px rgba(54, 52, 52, 0.1);
-
 }
 
-.logoContent{
+.logoContent {
   display: flex;
 }
 
-.logo{
+.logo {
   margin-top: 1rem;
-width: 4rem;
-height: 4rem;  
+  width: 4rem;
+  height: 4rem;
 }
 
-nav ul li {
+header nav ul li {
   display: inline-block;
   padding: 0 1rem;
 }
 
-nav {
+header nav {
   /* margin-right: 3rem; */
 }
 
