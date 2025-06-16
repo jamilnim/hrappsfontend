@@ -69,7 +69,7 @@ const EmployeeCard = ({
   const isSaveDisabled =
     newsalary === "" || parseFloat(newsalary) === parseFloat(salary);
 
-  const workStatusIcon = workingStatus ? "👷‍♀️" : "🏖️🌊✈️";
+  const workStatusIcon = workingStatus ? "👷‍♀️ In duty" : "🏖️🌊✈️ In leave";
   const animalEmoji =
     animal?.toLowerCase() === "dog"
       ? "🐶"
