@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
-import styles from "./EmployeeCard.module.css";
+import styles from "./Employeecard.module.css";
 
 const EmployeeCard = ({
   id,
