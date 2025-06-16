@@ -7,7 +7,7 @@ import React from "react";
 function Header({ name }) {
   return (
     <div>
-      <header className={styles.header}>
+      <header className={styles.headerContent}>
         <div className={styles.logoContent}>
           <img className={styles.logo} src={Em} alt="logo" />
           <Link to="/">
