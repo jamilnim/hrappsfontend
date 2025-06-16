@@ -16,8 +16,9 @@
 
 header nav {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+
 }
 
 header nav ul {
