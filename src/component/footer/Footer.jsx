@@ -1,13 +1,13 @@
 import { NavLink, Link } from "react-router";
 
-import "./Footer.css";
+import Styles from "./Footer.module.css";
 
 import React from "react";
 
 function Footer({ name }) {
   return (
     <div>
-      <header>
+      <footer className={Styles.footer}>
         <div className="logo">
           <Link to="/">
             <h2>{name}</h2>
@@ -15,13 +15,13 @@ function Footer({ name }) {
         </div>
         <nav>
           <ul>
-            <NavLink to="/">About</NavLink>
+            <NavLink to="/about">About</NavLink>
             <NavLink to="/employeelist">Employee list</NavLink>
             <NavLink to="/add">Add Employee</NavLink>
             <NavLink to="/personList">Person List</NavLink>
           </ul>
         </nav>
-      </header>
+      </footer>
     </div>
   );
 }

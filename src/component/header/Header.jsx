@@ -1,13 +1,13 @@
 import { NavLink, Link } from "react-router";
 
-import "./Header.css";
+import styles from "./Header.module.css";
 
 import React from "react";
 
 function Header({ name }) {
   return (
     <div>
-      <header>
+      <header className={styles.header}>
         <div className="logo">
           <Link to="/">
             <h2>{name}</h2>
@@ -15,7 +15,7 @@ function Header({ name }) {
         </div>
         <nav>
           <ul>
-            <NavLink to="/">About</NavLink>
+            <NavLink to="/about">About</NavLink>
             <NavLink to="/employeelist">Employee list</NavLink>
             <NavLink to="/add">Add Employee</NavLink>
             <NavLink to="/personList">Person List</NavLink>

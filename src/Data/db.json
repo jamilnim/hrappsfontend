@@ -106,7 +106,7 @@
       "department": "Project Management",
       "skills": "SEO,Content Creation,Social Media",
       "leadership": true,
-      "workingStatus": true
+      "workingStatus": false
     },
     {
       "id": "3a09",
@@ -136,7 +136,7 @@
       "department": "IT",
       "skills": "Contract Law,Risk Management,Compliance",
       "leadership": false,
-      "workingStatus": true
+      "workingStatus": false
     },
     {
       "id": "3a41",
@@ -151,7 +151,7 @@
       "department": "IT",
       "skills": "coding",
       "leadership": false,
-      "workingStatus": true
+      "workingStatus": false
     },
     {
       "id": "a3b7",

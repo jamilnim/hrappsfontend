@@ -125,6 +125,7 @@ function EditEmployeeCard(props) {
 
             <button type="submit">Save</button>
           </form>
+          <button onClick={() => navigate("/EmployeeList")}>cancel</button>
         </>
       ) : (
         <>
