@@ -56,7 +56,7 @@ body {
 .inputContainer button {
   padding: 12px;
   margin-top: 15px;
-  background-color: #ff4d4f;
+  background-color: #565252;
   color: white;
   border: none;
   border-radius: 8px;
@@ -65,7 +65,7 @@ body {
 }
 
 .inputContainer button:hover {
-  background-color: #d9363e;
+  background-color: #969191;
 }
 
 .cancelbtn{
