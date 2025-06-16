@@ -1,8 +1,8 @@
 .headerContent {
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 73%, 50%);
   display: flex;
   justify-content: space-between;
-  align-items: center;
+
   padding: 0 1rem;
   box-shadow: 0 4px 8px rgba(54, 52, 52, 0.1);
 }
