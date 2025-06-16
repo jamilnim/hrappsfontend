@@ -7,7 +7,7 @@ import Footer from "../component/footer/Footer";
 function Root() {
   return (
     <div>
-      <Header name="HR Management" />
+      <Footer name="HR Management" />
       <main>
         <Outlet />
       </main>
