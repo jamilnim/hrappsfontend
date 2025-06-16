@@ -7,14 +7,10 @@ import React from "react";
 function Header({ name }) {
   return (
     <div>
-      <header className={styles.headerContent}>
-        <div className={styles.logoContent}>
+      <footer className={styles.header}>
+        <div className="logo">
           <img className={styles.logo} src={Em} alt="logo" />
-          <Link to="/">
-            <h2>{name}</h2>
-          </Link>
         </div>
-
         <nav>
           <ul>
             <NavLink to="/about">About</NavLink>
@@ -22,7 +18,7 @@ function Header({ name }) {
             <NavLink to="/add">Add Employee</NavLink>
           </ul>
         </nav>
-      </header>
+      </footer>
     </div>
   );
 }

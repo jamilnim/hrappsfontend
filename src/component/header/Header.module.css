@@ -1,5 +1,5 @@
-.headerContent {
-  background-color: hsl(0, 73%, 50%);
+.header {
+  background-color: hsl(0, 0%, 100%);
   display: flex;
   justify-content: space-between;
 
