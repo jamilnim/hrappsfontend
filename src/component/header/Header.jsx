@@ -6,16 +6,15 @@ import React from "react";
 
 function Header({ name }) {
   return (
-    <div >
+    <div>
       <header className={styles.header}>
-     
         <div className={styles.logoContent}>
           <img className={styles.logo} src={Em} alt="logo" />
           <Link to="/">
             <h2>{name}</h2>
           </Link>
         </div>
-     
+
         <nav>
           <ul>
             <NavLink to="/about">About</NavLink>
