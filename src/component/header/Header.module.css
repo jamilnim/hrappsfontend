@@ -2,33 +2,38 @@
   background-color: hsl(0, 0%, 100%);
   display: flex;
   justify-content: space-between;
-
+  align-items: center;
   padding: 0 1rem;
+
+  height: 8rem;
   box-shadow: 0 4px 8px rgba(54, 52, 52, 0.1);
 }
 
-.logoContent {
-  display: flex;
-}
-
 .logo {
-  margin-top: 1rem;
   width: 4rem;
   height: 4rem;
 }
 
-header nav ul li {
-  display: inline-block;
-  padding: 0 1rem;
+header nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-header nav {
-  /* margin-right: 3rem; */
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 0 1rem;
 }
 
 a {
   margin: 0.5rem;
-
   text-decoration: none;
   color: rgb(12, 11, 11);
 }
