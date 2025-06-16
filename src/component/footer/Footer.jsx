@@ -18,8 +18,9 @@ function Footer({ name }) {
             <NavLink to="/add">Add Employee</NavLink>
           </ul>
         </nav>
+        <p>Copyright©Muhammad Jamil</p>
       </footer>
-      <p>copyright©Muhammad Jamil</p>
+
     </div>
   );
 }
